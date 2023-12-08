@@ -118,6 +118,16 @@ p {
   max-width: 150px;
 }
 
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
