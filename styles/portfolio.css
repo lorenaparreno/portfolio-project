@@ -159,7 +159,7 @@ footer .email-link:hover {
   color: var(--seconday-color);
 }
 
-footer .social-link {
+footer .social-link a {
   margin: 0 20px;
   color: var(--seconday-color);
   background: var(--branding-color);
