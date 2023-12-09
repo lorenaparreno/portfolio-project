@@ -163,12 +163,21 @@ footer .social-links a {
   margin: 0 20px;
   color: var(--seconday-color);
   background: var(--branding-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #ffffff;
+  background: var(--seconday-color);
 }
 
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 56px;
+    line-height: 1.5;
   }
 
   h2 {
