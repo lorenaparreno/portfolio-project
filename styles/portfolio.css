@@ -84,9 +84,10 @@ p {
 }
 
 .content-container img {
-  border-radius: 5mm;
+  border-radius: 7mm;
   line-height: 1.5;
   padding: 15px;
+  width: 1000px;
 }
 
 .content {
@@ -94,6 +95,13 @@ p {
   line-height: 27px;
   padding: 15px 30px;
   text-align: center;
+}
+
+.weather-app-img {
+  border-radius: 7mm;
+  width: 100%;
+  max-width: 580px;
+  height: auto;
 }
 
 .btn-branding {
@@ -115,7 +123,7 @@ p {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: auto 60px;
 }
 
 .logo {
